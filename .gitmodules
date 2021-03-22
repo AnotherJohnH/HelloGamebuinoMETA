@@ -1,0 +1,6 @@
+[submodule "Gamebuino-META"]
+	path = Gamebuino-META
+	url = https://github.com/Gamebuino/Gamebuino-META
+[submodule "ArduinoCore-samd"]
+	path = ArduinoCore-samd
+	url = https://github.com/arduino/ArduinoCore-samd
