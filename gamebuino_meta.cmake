@@ -26,7 +26,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-g -Os -w -std=gnu++11 \
                              -DF_CPU=16000000L -DARDUINO=10813 \
                              -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR")
 
-set(bin_prefix "avr-")
+set(bin_prefix "arm-none-eabi-")
 
 set(CMAKE_ASM_COMPILER      ${bin_prefix}as)
 set(CMAKE_C_COMPILER        ${bin_prefix}gcc)

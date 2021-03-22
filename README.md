@@ -12,18 +12,17 @@ without needing the Arduino IDE when using Linux or MacOS.
 This git repo uses submodules, so to clone a copy use...
 
 ```
-git clone --recurse-submodules https://github.com/AnotherJohnH/HelloGamebuinoMeta.git
+git clone --recurse-submodules https://github.com/AnotherJohnH/HelloGamebuinoMETA.git
 ```
 
 ### Build Dependencies
 
-+ gcc-avr
-+ libc-avr
++ gcc-arm-none-eabi
 + cmake (*at least v3.11.4*)
 
 ### Build configuration
 
-1) The `gcc-avr` and `libc-avr` dependencies can be satisfied by an install of
+1) The `gcc-arm-none-eabi` and `libc-avr` dependencies can be satisfied by an install of
 the [Arduino](https://www.arduino.cc/en/software) IDE. If this
 approach is taken then the `ARDUINO_ROOT` path needs to be set in [Makefile](https://github.com/AnotherJohnH/HelloGamebuinoMeta/blob/main/Makefile)
 so that `$(ARDUINO_ROOT)/tools/avr/bin` can be added to `$PATH`.
